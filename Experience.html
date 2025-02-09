@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Mohankumar | Fecilities</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="" name="keywords">
+	<meta content="" name="description">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<!-- Favicons -->
+    <link href="img/logo.png" rel="icon">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+	<!-- Bootstrap CSS File -->
+	<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Libraries CSS Files -->
+	<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="lib/animate/animate.min.css" rel="stylesheet">
+	<link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+	<!-- Main Stylesheet File -->
+	<link href="css/style.css" rel="stylesheet">
+	<style type="text/css">
+		.mapouter {
+			position: relative;
+			text-align: right;
+			height: 312px;
+			width: 1080px;
+		}
+
+		.gmap_canvas {
+			overflow: hidden;
+			background: none !important;
+			height: 312px;
+			width: 1080px;
+		}
+
+		.mySlides {
+			display: none;
+		}
+
+		.button1 {
+			-moz-box-shadow: inset -1px -4px 3px 1px #f5978e;
+			-webkit-box-shadow: inset -1px -4px 3px 1px #f5978e;
+			box-shadow: inset -1px -4px 3px 1px #f5978e;
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c41104), color-stop(1, #ec5700));
+			background: -moz-linear-gradient(center top, #c41104 5%, #ec5700 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c41104', endColorstr='#ec5700');
+			background-color: #c41104;
+			-webkit-border-top-left-radius: 16px;
+			-moz-border-radius-topleft: 16px;
+			border-top-left-radius: 16px;
+			-webkit-border-top-right-radius: 0px;
+			-moz-border-radius-topright: 0px;
+			border-top-right-radius: 0px;
+			-webkit-border-bottom-right-radius: 16px;
+			-moz-border-radius-bottomright: 16px;
+			border-bottom-right-radius: 16px;
+			-webkit-border-bottom-left-radius: 0px;
+			-moz-border-radius-bottomleft: 0px;
+			border-bottom-left-radius: 0px;
+			text-indent: 3.44px;
+			border: 2px solid #d02718;
+			display: inline-block;
+			color: #ffffff;
+			font-family: Trebuchet MS;
+			font-size: 16px;
+			font-weight: bold;
+			font-style: normal;
+			height: 39px;
+			line-height: 39px;
+			width: 91px;
+			text-decoration: none;
+			text-align: center;
+			text-shadow: 1px 1px 0px #810e05;
+		}
+
+		.button1:hover {
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ec5700), color-stop(1, #c41104));
+			background: -moz-linear-gradient(center top, #ec5700 5%, #c41104 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ec5700', endColorstr='#c41104');
+			background-color: #ec5700;
+		}
+
+		.button1:active {
+			position: relative;
+			top: 1px;
+		}
+
+		.bouncy {
+			animation: bouncy 3s infinite linear;
+			position: relative;
+		}
+
+		@keyframes bouncy {
+			0% {
+				top: 0em
+			}
+
+			40% {
+				top: 0em
+			}
+
+			43% {
+				top: -0.9em
+			}
+
+			46% {
+				top: 0em
+			}
+
+			48% {
+				top: -0.4em
+			}
+
+			50% {
+				top: 0em
+			}
+
+			100% {
+				top: 0em;
+			}
+		}
+
+		.ghost-button {
+			display: inline-block;
+			width: 200px;
+			padding: 8px;
+			color: #000;
+			border: 1px solid #000;
+			text-align: center;
+			outline: none;
+			text-decoration: none;
+		}
+
+		.ghost-button:hover,
+		.ghost-button:active {
+			background-color: rgb(0, 200, 100);
+			color: #000;
+		}
+
+	</style>
+	<script src="https://apis.google.com/js/platform.js"></script>
+</head>
+
+<body>
+
+	<!--==========================
+  Header
+  ============================-->
+  <header id="header" class="fixed-top">
+	<div class="container">
+
+		<div class="logo float-left">
+			<a href="index.html" class="scrollto"><img src="img/logo.png" alt="" class="" height="92" width="60" /><strong style="font-size:20px;padding-left:30px;">Moo Space</strong></a>
+		</div>
+
+		<nav class="main-nav float-right d-none d-lg-block">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Academics.html">Academics</a></li>
+				<li><a href="Skills.html">Skills</a></li>
+				<li class="active"><a href="#about">Experience</a></li>
+				<li><a href="Certifications.html">Certifications</a></li>
+				<li><a href="#footer">Contact</a></li>
+			</ul>
+		</nav><!-- .main-nav -->
+
+	</div>
+</header><!-- #header -->
+
+	<!--==========================
+    Intro Section
+  ============================-->
+
+	<main id="main" style="padding-top: 100px;">
+
+		<!--==========================
+     Message From the Desk
+    ============================-->
+		<section id="about">
+			<div class="container">
+
+				<header class="section-header">
+					<h3>Experience</h3>
+				</header>
+				<script>
+					var myIndex = 0;
+					carousel();
+
+					function carousel() {
+						var i;
+						var x = document.getElementsByClassName("mySlides");
+						for (i = 0; i < x.length; i++) {
+							x[i].style.display = "none";
+						}
+						myIndex++;
+						if (myIndex > x.length) {
+							myIndex = 1
+						}
+						x[myIndex - 1].style.display = "block";
+						setTimeout(carousel, 5000); // Change image every 10 seconds
+					}
+
+				</script>
+
+				<div class="row about-extra">
+					<div class="col-lg-6 wow fadeInUp">
+						<img src="img/Experience/Ulms.jpg" class="img-fluid" alt="" style="border-radius: 5%;">
+					</div>
+					<div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+						<a href="https://www.liverpool.ac.uk/"><h4>University of Liverpool, United Kingdom</h4></a>
+						<h5>PG Student Research Assistant (Jun 2023 - Sep 2023)</h5>
+						<strong>Project:</strong> Ethical Issues of using AI in Business Operations | PG Student Research Assistant
+						<p>
+							<ul>
+								<li>Conducting a comprehensive systematic literature review on AI ethics debates, analysing over 50 academic articles and industry reports.</li>
+								<li>Case study analysing the effect of innovative ERP systems on the business operations of Motor Oil Hellas.</li>
+								<li>Identified and documented emerging ethical issues associated with the use of AI technologies, including privacy concerns and potential biases in decision-making processes.</li>
+								<li>Developed a set of recommendations for companies to ensure ethical practices in their use of AI technologies based on analysis of publicly available cases.</li>
+							</ul>
+						</p>
+					</div>
+				</div>
+
+				<div class="row about-extra">
+					<div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
+						<img src="img/Experience/Trainer.jpg" class="img-fluid" alt="" style="border-radius: 5%;">
+					</div>
+
+					<div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+						<a href=""><h4>Infosys Limited, Bengaluru, India</h4></a>
+						<h5>Systems Engineer | Educator (Nov 2021 - Jul 2022)</h5>
+						<strong>Project:</strong> Content Creator and Educator <strong>Client:</strong> Springboard and ETA
+						<p>
+							<ul>
+								<li>Trained hundreds of employees, senior members of organization and clients of Infosys Ltd. on methods and benefits of using Artificial Intelligence and Machine Learning in business operations</li>
+								<li>Continuously upskilling in new technologies related to Artificial Intelligence, Machine Learning, and Data Science through online courses and industry conferences. Implemented new learnings into ongoing projects resulting in a reduction of manual effort by 15% and increased accuracy by over 25%.</li>
+								<li>Created data dashboards, graphs, and visualizations using Tableau, communicating insights to stakeholders, product owners, and senior teams.</li>
+								<li>Led knowledge sharing initiatives and crafted compelling case studies that led to beneficial outcomes, displaying adaptability and resilience.</li>
+								<li>Helped maximum tech employees of particular DC to upskill in 3 months making them aware of AI and ML inspiring them with new technologies directly impacting long term goal of Infosys Nio.</li>
+							</ul>
+					</div>
+				</div>
+				<div class="row about-extra">
+					<div class="col-lg-6 wow fadeInUp">
+						<img src="img/Experience/Educator.jpg" class="img-fluid" alt="" style="border-radius: 5%;">
+					</div>
+					<div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+						<h5>Systems Engineer (Aug 2021 - Oct 2021)</h5>
+						<strong>Project:</strong> Zoiee <strong>Client:</strong> Multiple Event Services (Chatbot)
+						<p>
+							<ul>
+								<li>Restart and allocate virtual servers at Infosys Ltd. AI chatbot named Zoiee for different client events</li>
+								<li>Handling multiple clients simultaneously and providing services.</li>
+							</ul>
+							</p>
+					</div>
+				</div>
+				<div class="row about-extra">
+					<div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
+						<img src="img/Experience/Systems Engineer.jpg" class="img-fluid" alt="" style="border-radius: 5%;">
+					</div>
+
+					<div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+						<h5>Systems Engineer Associate (Dec 2020 - Jul 2021)</h5>
+						<strong>Project:</strong> GenQ <strong>Client:</strong> Springboard
+						<p>
+							<ul>
+								<li>Implemented a responsive design for the complete user interface of a major project, resulting in increased user engagement by 40% and reducing bounce rates by 25%, which was featured in "India AI 2021".</li>
+								<li>Collaborated with a team to structure and analyse business requirements, transforming them into functional specifications for developers and providing strategic solution.</li>
+							</ul>
+						</p>
+					</div>
+				</div>
+				<div class="row about-extra">
+					<div class="col-lg-6 wow fadeInUp">
+						<img src="img/Experience/Internship.jpg" class="img-fluid" alt="" style="border-radius: 5%;">
+					</div>
+					<div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+						<h5>Winternship (Feb 2020 - Mar 2020)</h5>
+						<strong>Project:</strong> Industrial Training
+						<p>
+							<ul>
+								<li>Built an authentication flow from the ground up and integrated a payment gateway into a retail management system. </li>
+								<li>Finished in the top 10% of interns for the final capstone project.</li>
+							</ul>
+							</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- #Message From the Desk End-->	
+		<!--==========================
+      Contact Section
+    ============================-->
+
+	</main>
+
+	<!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6 footer-info">
+                    <strong style="font-size:30px;">Mohankumar Markuli Chandrayigowda</strong><br><br>
+                    Tech Educator | AI and ML <br> Innovative Education!!
+                </div>
+
+                <div class="col-lg-2 col-md-6 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="Academics.html">Academics</a></li>
+						<li><a href="Skills.html">Skills</a></li>
+						<li><a href="#about">Experience</a></li>
+						<li><a href="Certifications.html">Certifications</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><strong>Address: </strong> 57 Romer Road<br>Liverpool - L6 6DH<br>
+                        <strong>Mob:</strong> +44 7833838626<br>
+                        <strong>Mob:</strong> +91 7996471774<br>
+                        <strong>Email:</strong> mohankumar.mc@proton.me<br>
+                    </p>
+
+					<div class="social-links">
+						<a href="https://www.linkedin.com/in/mohankumar-mc/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+						<a href="https://github.com/Mohankumar-MC" class="github"><i class="fa fa-github"></i></a>
+						<a href="https://medium.com/@mohan.mcm.1998" class="medium"><i class="fa fa-medium"></i></a>
+							<a href="https://www.facebook.com/profile.php?id=100077637451160" class="facebook"><i class="fa fa-facebook"></i></a>
+						<a href="https://www.instagram.com/rvishalmohan/" class="instagram"><i class="fa fa-instagram"></i></a>
+						
+					</div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-newsletter">
+                    <center>
+                        <img src="img/logo.png" height="150" width="150" />
+                        <h4>&nbsp;</h4>
+                    </center>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer><!-- #footer -->
+
+	<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+	<!-- JavaScript Libraries -->
+	<script src="lib/jquery/jquery.min.js"></script>
+	<script src="lib/jquery/jquery-migrate.min.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="lib/easing/easing.min.js"></script>
+	<script src="lib/mobile-nav/mobile-nav.js"></script>
+	<script src="lib/wow/wow.min.js"></script>
+	<script src="lib/waypoints/waypoints.min.js"></script>
+	<script src="lib/counterup/counterup.min.js"></script>
+	<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+	<script src="lib/isotope/isotope.pkgd.min.js"></script>
+	<script src="lib/lightbox/js/lightbox.min.js"></script>
+	<!-- Contact Form JavaScript File -->
+	<script src="contactform/contactform.js"></script>
+
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>

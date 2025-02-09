@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Mohankumar | Home</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="" name="keywords">
+	<meta content="" name="description">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<!-- Favicons -->
+	<link href="img/logo.png" rel="icon">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+	<!-- Bootstrap CSS File -->
+	<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Libraries CSS Files -->
+	<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="lib/animate/animate.min.css" rel="stylesheet">
+	<link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+	<!-- Main Stylesheet File -->
+	<link href="css/style.css" rel="stylesheet">
+	<style type="text/css">
+		.mapouter {
+			position: relative;
+			text-align: right;
+			height: 312px;
+			width: 1080px;
+		}
+
+		.gmap_canvas {
+			overflow: hidden;
+			background: none !important;
+			height: 312px;
+			width: 1080px;
+		}
+
+		.mySlides {
+			display: none;
+		}
+
+		.button1 {
+			-moz-box-shadow: inset -1px -4px 3px 1px #f5978e;
+			-webkit-box-shadow: inset -1px -4px 3px 1px #f5978e;
+			box-shadow: inset -1px -4px 3px 1px #f5978e;
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c41104), color-stop(1, #ec5700));
+			background: -moz-linear-gradient(center top, #c41104 5%, #ec5700 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c41104', endColorstr='#ec5700');
+			background-color: #c41104;
+			-webkit-border-top-left-radius: 16px;
+			-moz-border-radius-topleft: 16px;
+			border-top-left-radius: 16px;
+			-webkit-border-top-right-radius: 0px;
+			-moz-border-radius-topright: 0px;
+			border-top-right-radius: 0px;
+			-webkit-border-bottom-right-radius: 16px;
+			-moz-border-radius-bottomright: 16px;
+			border-bottom-right-radius: 16px;
+			-webkit-border-bottom-left-radius: 0px;
+			-moz-border-radius-bottomleft: 0px;
+			border-bottom-left-radius: 0px;
+			text-indent: 3.44px;
+			border: 2px solid #d02718;
+			display: inline-block;
+			color: #ffffff;
+			font-family: Trebuchet MS;
+			font-size: 16px;
+			font-weight: bold;
+			font-style: normal;
+			height: 39px;
+			line-height: 39px;
+			width: 91px;
+			text-decoration: none;
+			text-align: center;
+			text-shadow: 1px 1px 0px #810e05;
+		}
+
+		.button1:hover {
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ec5700), color-stop(1, #c41104));
+			background: -moz-linear-gradient(center top, #ec5700 5%, #c41104 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ec5700', endColorstr='#c41104');
+			background-color: #ec5700;
+		}
+
+		.button1:active {
+			position: relative;
+			top: 1px;
+		}
+
+		.bouncy {
+			animation: bouncy 3s infinite linear;
+			position: relative;
+		}
+
+		@keyframes bouncy {
+			0% {
+				top: 0em
+			}
+
+			40% {
+				top: 0em
+			}
+
+			43% {
+				top: -0.9em
+			}
+
+			46% {
+				top: 0em
+			}
+
+			48% {
+				top: -0.4em
+			}
+
+			50% {
+				top: 0em
+			}
+
+			100% {
+				top: 0em;
+			}
+		}
+
+		.ghost-button {
+			display: inline-block;
+			width: 200px;
+			padding: 8px;
+			color: #000;
+			border: 1px solid #000;
+			text-align: center;
+			outline: none;
+			text-decoration: none;
+		}
+
+		.ghost-button:hover,
+		.ghost-button:active {
+			background-color: rgb(0, 200, 100);
+			color: #000;
+		}
+
+	</style>
+	<script src="https://apis.google.com/js/platform.js"></script>
+</head>
+
+<body>
+
+	<!--==========================
+  Header
+  ============================-->
+	<header id="header" class="fixed-top">
+		<div class="container">
+
+			<div class="logo float-left">
+				<a href="index.html" class="scrollto"><img src="img/logo.png" alt="" class="" height="92" width="60" /><strong style="font-size:20px;padding-left:30px;">Moo Space</strong></a>
+			</div>
+
+			<nav class="main-nav float-right d-none d-lg-block">
+				<ul>
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="Academics.html">Academics</a></li>
+					<li><a href="Skills.html">Skills</a></li>
+					<li><a href="Experience.html">Experience</a></li>
+					<li><a href="Certifications.html">Certifications</a></li>
+					<li><a href="#footer">Contact</a></li>
+				</ul>
+			</nav><!-- .main-nav -->
+		</div>
+	</header><!-- #header -->
+
+	<!--==========================
+    Intro Section
+  ============================-->
+	<section id="intro" class="clearfix">
+		<div class="container">
+
+			<div class="intro-img">
+				<div class="w3-content w3-section" style="max-width:100%">
+					<img src="img/Banner/1.jpg" style="width:100%;height:25%;border-radius: 10%;" height="200px">
+				</div>
+			</div>
+
+			<div class="intro-info">
+				<h2>Mohankumar <br>Markuli <br> Chandrayigowda</h2>
+				<h4 style="color: #ffffff;">Tech Educator - AI and ML <br>Innovative Education!</h4>
+				<div>
+					<a href="#about" class="btn-get-started scrollto">Get Started</a>
+					<a href="Mohankumar.pdf" class="btn-services scrollto">Resume</a>
+					
+					
+				</div>
+			</div>
+
+		</div>
+	</section><!-- #intro -->
+
+	<main id="main">
+		<!--==========================
+      About Us Section
+    ============================-->
+		<section id="about">
+			<div class="container">
+				<header class="section-header">
+					<h3>About</h3>
+				</header>
+				<div class="row about-extra">
+					<div class="col-lg-12 wow fadeInUp pt-5 pt-lg-0">
+						<p>
+							<strong>Mohankumar Markuli Chandrayigowda</strong>, Graduate with a strong background in business and big data analytics who thinks strategically. Has experience using
+						Python, SQL, Excel, and Tableau to improve business and give strategic insights. Proven skills in working as a team,
+						paying attention to details, being flexible, working with people from different cultures, and carefully engaging
+						stakeholders. Skilled at breaking down complicated ideas into insights that are easy to understand and use. I want to
+						use a mix of technical skills, business sense, and strategic analysis to solve complex business problems in a fast-paced
+						role. </p>
+					</div>
+				</div>
+			</div>
+		</section><!-- #about -->
+
+		<!--==========================
+     Message From the Desk
+    ============================-->
+
+
+		<!-- #Message From the Desk End-->
+
+		<!--==========================
+      Streams Section Begin
+    ============================-->
+		<section id="services" class="section-bg">
+			<div class="container">
+
+				<header class="section-header">
+					<h3>Publications</h3>
+
+				</header>
+
+				<div class="row">
+
+					<div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
+						<a href="https://medium.com/@mohan.mcm.1998/ethical-issues-with-the-use-of-ai-in-business-operation-624cabd0bef3">
+							<div class="box">
+								<div class="icon"><img src="img/P/classroom.png" width=70px height=60px /></div>
+								<h4 class="title">Ethical Issues of Using AI in Business Operations</h4>
+							</div>
+						</a>
+					</div>
+		
+					<div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
+						<a href="https://medium.com/@mohan.mcm.1998/adopting-big-data-analytics-in-the-manufacturing-industry-5e8f6b55adcf">
+							<div class="box">
+								<div class="icon"><img src="img/P/classroom.png" width=70px height=60px /></div>
+								<h4 class="title">Adopting Big Data Analytics in Manufactiring IndustryY</h4>
+							</div>
+						</a>
+					</div>
+
+					<div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
+						<a href="https://medium.com/@mohan.mcm.1998/battery-loop-7c650fab1ea6">
+							<div class="box">
+								<div class="icon"><img src="img/P/classroom.png" width=70px height=60px /></div>
+								<h4 class="title">Digital Strategy for Battery Loop business model</h4>
+							</div>
+						</a>
+					</div>
+
+					<div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
+						<a href="https://medium.com/@mohan.mcm.1998/impact-of-integrating-innovative-erp-system-in-motor-oil-hellas-f7a98feaa568">
+							<div class="box">
+								<div class="icon"><img src="img/P/classroom.png" width=70px height=60px /></div>
+								<h4 class="title">Impact of Integrating Innovative ERP System in Motor Oil Hellas</h4>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col-md-6 col-lg-10 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
+						<a href="https://medium.com/@mohan.mcm.1998/data-management-and-operations-improvement-for-a-children-book-club-with-digital-technologies-e24a793c2fa1">
+							<div class="box">
+								<div class="icon"><img src="img/P/classroom.png" width=70px height=60px /></div>
+								<h4 class="title">Data Management and Operations Improvement for a Children Book Club with Digital Technologies</h4>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section><!-- #services -->
+
+		
+		<!--==========================
+      Contact Section
+    ============================-->
+
+	</main>
+
+	<!--==========================
+    Footer
+  ============================-->
+	<footer id="footer">
+		<div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6 footer-info">
+                        <strong style="font-size:30px;">Mohankumar Markuli Chandrayigowda</strong><br><br>
+                        Tech Educator | AI and ML <br> Innovative Education!!
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="Academics.html">Academics</a></li>
+                            <li><a href="Skills.html">Skills</a></li>
+                            <li><a href="Experience.html">Experience</a></li>
+                            <li><a href="Certifications.html">Certifications</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h4>Contact Us</h4>
+                        <p><strong>Address: </strong> 57 Romer Road<br>Liverpool - L6 6DH<br>
+                            <strong>Mob:</strong> +44 7833838626<br>
+                            <strong>Mob:</strong> +91 7996471774<br>
+                            <strong>Email:</strong> mohankumar.mc@proton.me<br>
+                        </p>
+
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/mohankumar-mc/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                        	<a href="https://github.com/Mohankumar-MC" class="github"><i class="fa fa-github"></i></a>
+                        	<a href="https://medium.com/@mohan.mcm.1998" class="medium"><i class="fa fa-medium"></i></a>
+                       	 	<a href="https://www.facebook.com/profile.php?id=100077637451160" class="facebook"><i class="fa fa-facebook"></i></a>
+                        	<a href="https://www.instagram.com/rvishalmohan/" class="instagram"><i class="fa fa-instagram"></i></a>
+							
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-newsletter">
+                        <center>
+                            <img src="img/logo.png" height="150" width="150" />
+                            <h4>&nbsp;</h4>
+                        </center>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+	</footer><!-- #footer -->
+
+	<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+	<!-- JavaScript Libraries -->
+	<script src="lib/jquery/jquery.min.js"></script>
+	<script src="lib/jquery/jquery-migrate.min.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="lib/easing/easing.min.js"></script>
+	<script src="lib/mobile-nav/mobile-nav.js"></script>
+	<script src="lib/wow/wow.min.js"></script>
+	<script src="lib/waypoints/waypoints.min.js"></script>
+	<script src="lib/counterup/counterup.min.js"></script>
+	<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+	<script src="lib/isotope/isotope.pkgd.min.js"></script>
+	<script src="lib/lightbox/js/lightbox.min.js"></script>
+	<!-- Contact Form JavaScript File -->
+	<script src="contactform/contactform.js"></script>
+
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
